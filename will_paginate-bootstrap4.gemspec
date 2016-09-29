@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Format will_paginate html to match Twitter Bootstrap 4 styling.}
   s.description = %q{Hooks into will_paginate to format the html to match Twitter Bootstrap 4 styling.}
   s.homepage    = 'https://github.com/delef/will_paginate-bootstrap4'
-  s.license     = 'MIT'
+  s.license     = ['MIT']
 
   s.rdoc_options     = ['--main', 'README.md', '--charset=UTF-8']
   s.extra_rdoc_files = ['README.md', 'LICENSE']
