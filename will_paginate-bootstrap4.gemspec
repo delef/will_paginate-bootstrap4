@@ -12,9 +12,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/delef/will_paginate-bootstrap4'
   s.license     = 'MIT'
 
-  s.rdoc_options     = ['--main', 'README.md', '--charset=UTF-8']
-  s.extra_rdoc_files = ['README.md', 'LICENSE']
-
   s.required_ruby_version = '>= 1.9.2'
   s.rubyforge_project     = 'will_paginate-bootstrap4'
 
