@@ -12,15 +12,16 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/delef/will_paginate-bootstrap4'
   s.license     = 'MIT'
 
-  s.rdoc_options = ['--main', 'README.md', '--charset=UTF-8']
+  s.rdoc_options     = ['--main', 'README.md', '--charset=UTF-8']
   s.extra_rdoc_files = ['README.md', 'LICENSE']
 
-
-  s.rubyforge_project = 'will_paginate-bootstrap4'
+  s.required_ruby_version = '>= 1.8.6'
+  s.rubyforge_project     = 'will_paginate-bootstrap4'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ['lib']
+
   s.add_runtime_dependency 'will_paginate', '~> 3.0', '>= 3.0.9'
 end
