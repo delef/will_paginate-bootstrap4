@@ -6,9 +6,12 @@ Gem::Specification.new do |s|
   s.name        = 'will_paginate-bootstrap4'
   s.version     = Bootstrap::WillPaginate::VERSION
   s.authors     = ['Ivan Palamarchuk']
-  s.email       = ['i.delef@gmail.com", "ikebowen@gmail.com']
+  s.email       = ['i.delef@gmail.com']
   s.summary     = %q{Format will_paginate html to match Twitter Bootstrap 4 styling.}
   s.description = %q{Hooks into will_paginate to format the html to match Twitter Bootstrap 4 styling.}
+  s.homepage    = 'https://github.com/delef/will_paginate-bootstrap4'
+  s.license     = 'MIT'
+
 
   s.rubyforge_project = 'will_paginate-bootstrap4'
 
