@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.rdoc_options     = ['--main', 'README.md', '--charset=UTF-8']
   s.extra_rdoc_files = ['README.md', 'LICENSE']
 
-  s.required_ruby_version = '>= 1.8.6'
+  s.required_ruby_version = '>= 1.9.2'
   s.rubyforge_project     = 'will_paginate-bootstrap4'
 
   s.files         = `git ls-files`.split("\n")
