@@ -26,7 +26,7 @@ pass an option like so:
     }
 
 
-Copyright (c) 2016 [Ivan Palamarchuk](https://github.com/delef) released under the MIT license  
+Copyright (c) 2016-2017 [Ivan Palamarchuk](https://github.com/delef) released under the MIT license  
 
 [wp]: http://github.com/mislav/will_paginate
 [bs]: http://v4-alpha.getbootstrap.com/
