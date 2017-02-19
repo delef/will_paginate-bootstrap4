@@ -17,6 +17,13 @@ Just like you would in the regular [will_paginate][wp].  If you've got a need to
 pass an option like so:
 
     <%= will_paginate @collection, :renderer => WillPaginate::ActionView::BootstrapLinkRenderer %>
+    
+    CSS:
+    .pagination {
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
 
 
 Copyright (c) 2016 [Ivan Palamarchuk](https://github.com/delef) released under the MIT license  
