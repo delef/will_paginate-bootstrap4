@@ -8,8 +8,8 @@ module WillPaginate
 
       options = options.symbolize_keys
       options[:renderer] ||= BootstrapLinkRenderer
-      options[:previous_label] = '&laquo;'
-      options[:next_label] = '&raquo;'
+      options[:list_classes] ||= ['pagination']
+      options[:aria_label] ||= 'Page Navigation'
       options[:inner_window] = 2
 
       super(collection, options)
@@ -28,8 +28,8 @@ module WillPaginate
           end
         end.join(@options[:link_separator])
 
-        list_wrapper = tag :ul, list_items, class: 'pagination', role: 'group'
-        tag :nav, list_wrapper, class: @options[:class]
+        list_wrapper = tag :ul, list_items, class: @options[:list_classes].join(" ").to_s
+        tag :nav, list_wrapper, 'aria-label': @options[:aria_label]
       end
 
       def container_attributes
@@ -54,10 +54,10 @@ module WillPaginate
 
         if page
           link_wrapper = link(text, page, link_options.merge(class: 'page-link'))
-          tag :li, link_wrapper, class: '%s page-item' % classname
+          tag :li, link_wrapper, class: 'page-item'
         else
           span_wrapper = tag(:span, text, class: 'page-link')
-          tag :li, span_wrapper, class: '%s page-item disabled' % classname
+          tag :li, span_wrapper, class: 'page-item disabled'
         end
       end
 
