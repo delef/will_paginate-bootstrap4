@@ -25,6 +25,14 @@ pass an option like so:
         justify-content: center;
     }
 
+The following options are available (in addition to the options available in will_paginate):
+
+    :list_classes = ['pagination']    # Array of classes
+    :aria_label = 'Page Navigation'   # The aria label to use in the Nav tag
+
+For example, to place the navigation section to the far right of the page, use this in your view:
+
+    <%= will_paginate @clients, :list_classes => ['pagination','justify-content-end'] %>
 
 Copyright (c) 2016-2017 [Ivan Palamarchuk](https://github.com/delef) released under the MIT license  
 
