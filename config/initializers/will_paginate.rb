@@ -10,7 +10,6 @@ module WillPaginate
       options[:renderer] ||= BootstrapLinkRenderer
       options[:list_classes] ||= ['pagination']
       options[:aria_label] ||= 'Page Navigation'
-      options[:inner_window] = 2
 
       super(collection, options)
     end
