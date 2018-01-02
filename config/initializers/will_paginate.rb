@@ -10,6 +10,8 @@ module WillPaginate
       options[:renderer] ||= BootstrapLinkRenderer
       options[:list_classes] ||= ['pagination']
       options[:aria_label] ||= 'Page Navigation'
+      options[:previous_label] ||= '&laquo;'
+      options[:next_label] ||= '&raquo;'
 
       super(collection, options)
     end
