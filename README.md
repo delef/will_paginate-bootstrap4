@@ -27,14 +27,7 @@ For example, to place the navigation section to the far right of the page, use t
 
     <%= will_paginate @clients, list_classes: %w(pagination justify-content-end) %>
 
-#### Stylesheets
-    .pagination {
-        margin-top: 10px;
-        align-items: center;
-        justify-content: center;
-    }
-
-Copyright (c) 2016-2017 [Ivan Palamarchuk](https://github.com/delef) released under the MIT license  
+Copyright (c) 2016-2018 [Ivan Palamarchuk](https://github.com/delef) released under the MIT license  
 
 [wp]: http://github.com/mislav/will_paginate
 [bs]: http://v4-alpha.getbootstrap.com/
