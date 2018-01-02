@@ -25,7 +25,7 @@ The following options are available (in addition to the options available in wil
 
 For example, to place the navigation section to the far right of the page, use this in your view:
 
-    <%= will_paginate @clients, :list_classes => ['pagination','justify-content-end'] %>
+    <%= will_paginate @clients, list_classes: %w(pagination justify-content-end) %>
 
 #### Stylesheets
     .pagination {
