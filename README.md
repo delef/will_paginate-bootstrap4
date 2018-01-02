@@ -22,6 +22,8 @@ The following options are available (in addition to the options available in wil
 
     :list_classes = ['pagination']    # Array of classes
     :aria_label = 'Page Navigation'   # The aria label to use in the Nav tag
+    :previous_label = '&laquo;'       # Previous page label
+    :next_label = '&raquo;'           # Next page label
 
 For example, to place the navigation section to the far right of the page, use this in your view:
 
