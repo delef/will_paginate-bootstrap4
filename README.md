@@ -17,13 +17,6 @@ Just like you would in the regular [will_paginate][wp].  If you've got a need to
 pass an option like so:
 
     <%= will_paginate @collection, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
-    
-    CSS:
-    .pagination {
-        margin-top: 10px;
-        align-items: center;
-        justify-content: center;
-    }
 
 The following options are available (in addition to the options available in will_paginate):
 
@@ -33,6 +26,13 @@ The following options are available (in addition to the options available in wil
 For example, to place the navigation section to the far right of the page, use this in your view:
 
     <%= will_paginate @clients, :list_classes => ['pagination','justify-content-end'] %>
+
+#### Stylesheets
+    .pagination {
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
 
 Copyright (c) 2016-2017 [Ivan Palamarchuk](https://github.com/delef) released under the MIT license  
 
