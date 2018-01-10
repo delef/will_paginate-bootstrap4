@@ -9,7 +9,6 @@ module WillPaginate
       options = options.symbolize_keys
       options[:renderer] ||= BootstrapLinkRenderer
       options[:list_classes] ||= ['pagination']
-      options[:aria_label] ||= 'Page Navigation'
       options[:previous_label] ||= '&larr;'
       options[:next_label] ||= '&rarr;'
 
@@ -29,8 +28,8 @@ module WillPaginate
           end
         end.join(@options[:link_separator])
 
-        list_wrapper = tag :ul, list_items, class: @options[:list_classes].join(" ").to_s
-        tag :nav, list_wrapper, 'aria-label': @options[:aria_label]
+        list_wrapper = tag :ul, list_items, class: @options[:list_classes].join(' ').to_s
+        tag :nav, list_wrapper
       end
 
       def container_attributes
