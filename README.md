@@ -32,4 +32,4 @@ For example, to place the navigation section to the far right of the page, use t
 Copyright (c) 2016-2018 [Ivan Palamarchuk](https://github.com/delef) released under the MIT license  
 
 [wp]: http://github.com/mislav/will_paginate
-[bs]: http://v4-alpha.getbootstrap.com/
+[bs]: https://getbootstrap.com
