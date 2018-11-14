@@ -16,7 +16,7 @@ Add to your Gemfile:
 Just like you would in the regular [will_paginate][wp].  If you've got a need to use the default will_paginate stylings,
 pass an option like so:
 
-    <%= will_paginate @collection, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
+    <%= will_paginate @collection, renderer: WillPaginate::ActionView::LinkRenderer %>
 
 The following options are available (in addition to the options available in will_paginate):
 
