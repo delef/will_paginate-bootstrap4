@@ -13,10 +13,7 @@ Add to your Gemfile:
 
 ### Usage
 
-Just like you would in the regular [will_paginate][wp].  If you've got a need to use the default will_paginate stylings,
-pass an option like so:
-
-    <%= will_paginate @collection, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
+    <%= will_paginate @clients, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
 
 The following options are available (in addition to the options available in will_paginate):
 
@@ -28,6 +25,11 @@ The following options are available (in addition to the options available in wil
 For example, to place the navigation section to the far right of the page, use this in your view:
 
     <%= will_paginate @clients, list_classes: %w(pagination justify-content-end) %>
+
+Just like you would in the regular [will_paginate][wp].  If you've got a need to use the default will_paginate stylings,
+pass an option like so:
+
+    <%= will_paginate @collection, renderer: WillPaginate::ActionView::LinkRenderer %>
 
 Copyright (c) 2016-2018 [Ivan Palamarchuk](https://github.com/delef) released under the MIT license  
 
