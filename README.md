@@ -1,5 +1,8 @@
 # PROJECT MOVED: https://github.com/delef/will_paginate-bootstrap-style
 
+
+
+
 ## [Will Paginate][wp] link renderer styles for [Twitter Bootstrap 4][bs]
 
 ![ex](https://cloud.githubusercontent.com/assets/2103263/18925649/74eeb836-85bd-11e6-9be1-593a076e684c.png)
